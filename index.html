@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Alan Chen Experience</title>
+  <style>
+* {
+  box-sizing: border-box;
+}
+html, body {
+  color: #e0e0e0;
+  font-family: helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+h1 {
+  font-size: 52px;
+  margin: 100px 0;
+}
+img {
+  display: block;
+}
+main {
+  height: 100%;
+  width: 100%;
+}
+p {
+  font-size: 24px;
+  margin: 50px;
+  text-align: center;
+}
+main {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.quote {
+  display: block;
+  font-family: "Comic Sans MS";
+  font-style: italic;
+  margin-top: 20px;
+}
+#copyright {
+  font-size: 12px;
+  margin: 100px 0 10px;
+}
+#hero {
+  width: 100%;
+}
+#outro {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-width: 1024px;
+  padding: 0 20px;
+}
+#outro img:last-child {
+  transform: scaleX(-1)
+}
+#outro p {
+  font-size: 44px;
+  font-style: italic;
+  font-weight: bold;
+}
+  </style>
+</head>
+<body>
+  <img id="hero" src="./images/ace.jpg" alt="The Alan Chen Experience">
+  <main>
+    <h1>Welcome to a <em>new experience</em></h1>
+    <p>Have you ever wondered what the life of an angel is like?</p>
+    <p>Have you ever wanted the comfort of someone telling you<span class="quote">"Nah, don't worry about it."</span></p>
+    <p>What if you could <strong>be an experience</strong></p>
+    <p>Now you know what <em>must</em> be done.</p>
+    <p>Join the experience...</p>
+    <div id="outro">
+      <img src="./images/face.png" alt="face left">
+      <p>The<br />Alan Chen<br />Experience</p>
+      <img src="./images/face.png" alt="face right">
+    </div>
+    <p id="copyright">&copy; 2020 The Alan Chen Experience</p>
+  </main>
+</body>
+</html>
